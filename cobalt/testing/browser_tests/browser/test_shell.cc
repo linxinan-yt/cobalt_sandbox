@@ -28,6 +28,7 @@
 #include "third_party/blink/public/common/renderer_preferences/renderer_preferences.h"
 
 namespace content {
+// No need to resove.
 TestShell::TestShell(std::unique_ptr<WebContents> web_contents,
                      bool should_set_delegate)
     : Shell(std::move(web_contents), nullptr, should_set_delegate) {}
